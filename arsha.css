@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #37517E;
+    width: 100%;
+}
+
+.hero .hero_content {
+    width: 85%;
+    height: 100%;
+    background-color: #37517E;
+    margin: 0 auto;
+}
+
+.hero .hero_content header {
+    background-color: #37517E;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.hero .hero_content header .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.hero .hero_content .hero_body {
+    background-color: purple;
+    margin: auto 0;
+    height: 90%;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.hero .hero_content .hero_body .type {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+
+.hero .hero_content .hero_body .type h1 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.hero .hero_content .hero_body .type p {
+    color: #C3CBD9;
+    font-size: 1.3rem;
+}
+
+.hero .hero_content .hero_body .image {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+
+.hero .hero_content .hero_body .image img {
+    width: 100%;
+}
+
+.section_head {
+    text-align: center;
+}
+
+.split_two {
+    width: 85%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    background-color: pink;
+}
+
+.split_two .first_half {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+
+.split_two .second_half {
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.split_four {
+    width: 85%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.split_four .first_quarter {
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.split_four .second_quarter {
+    width: 25%;
+    height: 100%;
+    background-color: yellowgreen
+}
+
+
+.split_four .third_quarter {
+    width: 25%;
+    height: 100%;
+    background-color: azure;
+}
+
+
+.split_four .fourth_quarter {
+    width: 25%;
+    height: 100%;
+    background-color: bisque;
+}

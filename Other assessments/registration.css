@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.holder {
+    display: flex;
+    background-color: #FDF4E3;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: #E8E6FC;
+    border-radius: 15%;
+    width: 20rem;
+    height: 20rem;
+    align-content: center;
+    justify-items: center;
+}
+
+.input_box {
+    display: flex;
+    margin: 1rem;
+    justify-content: center
+}
+
+button {
+    width: 10rem;
+    background-color: #564FAD;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+i {
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border: #000;
+    align-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.05rem;
+}
